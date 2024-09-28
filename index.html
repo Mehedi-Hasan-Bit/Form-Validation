@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device=width" intaial-scale="1.0">
+    <meta name="title" content="minimo">
+    <meta name="description" content="Site Description ">
+    <meta name="keywords" content="minimo">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="7 days">
+    <meta name="author" content="Mehedi Hasan">
+    <link rel="icon" type="image/x-icon" href="images/fav.png">
+    <title>Form Validation</title>
+    <!---css link--->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+        <!---------------------------------------Fast name----------------------------->
+        <div class="row">
+           <div class="col">
+               <label for="f_name" class="form-label f_name">Fast name</label>
+               <input type="text" class="form-control f_name" placeholder="First name" id="f_name" name="f_name">
+           </div>
+           <!---------------------------------------Fast name----------------------------->
+           <!---------------------------------------Last name------------------------------->
+           <div class="col">
+               <label for="l_name" class="form-label l_name">Last name</label>
+               <input type="text" class="form-control l_name" placeholder="Last name" id="l_name" name="l_name">
+           </div>
+        </div>
+           <!---------------------------------------email------------------------------->
+        <div class="row">
+            <div class="col">
+               <label for="email" class="form-label email">Email address</label>
+               <input type="email" class="form-control email" placeholder="Type email address" id="email" name="email">
+            </div>
+           <!---------------------------------------email----------------------------->
+           <!---------------------------------------password------------------------------->
+            <div class="col">
+               <label for="password" class="form-label password">Password</label>
+               <input type="password" class="form-control l_name" placeholder="Password" id="password" name="password">
+            </div>
+        </div>
+        <!---------------------------------------password------------------------------->
+        <div class="row">
+           <div class="col">
+               <label for="city" class="form-label city">City</label>
+               <input type="text" class="form-control city" placeholder="City name" id="city" name="city">
+           </div>
+           <div class="col">
+               <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>Dhaka</option>
+                  <option>Barishal</option>
+                  <option>Chattogram</option>
+                  <option>Khulna</option>
+                  <option>Rajshahi</option>
+                  <option>Rangpur</option>
+                  <option>Mymensingh</option>
+                  <option>Sylhet</option>             
+                </select>
+           </div>
+           <div class="col-md-2">
+             <label for="zip code" class="form-label zip code">Zip code</label>
+             <input type="text" class="zip code" id="zip code">
+           </div>
+        </div>
+
+        <label class="form-check-label" for="flexCheckChecked">Gender</label>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">Male</label>
+        </div>
+        <div>
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">Female</label>
+        </div>
+
+
+
+
+
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+        
+    <!----------------------------------state------------------------------------>
+
+</div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
